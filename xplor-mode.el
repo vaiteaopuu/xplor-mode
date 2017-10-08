@@ -2,8 +2,8 @@
 
 ;; Copyright © 2017, by vaitea OPUU
 
-;; Author: vaitea OPUU (vaiteaopuu@gmail.com)
-;; Version: 0.0.0
+;; Author: vaitea OPUU (vaiteaopuu@polytechnique.edu)
+;; Version: 0.0.1
 ;; Created: 14 april 2017
 ;; Keywords: fasta, sequences, dna, protein, viewing
 
@@ -109,11 +109,10 @@
 
   ;; Comment syntax
   (setq comment-start "!")
-
   )
 
 ;;;###autoload
-(add-to-list 'auto-mode-alist '("\\.inp\\'" . xplor-mode))
+(add-to-list 'auto-mode-alist '("\\.inp\\|\\.str\\|\\.rtf\\|prm\\'" . xplor-mode))
 
 ;; add the mode to the `features' list
 (provide 'xplor-mode)
